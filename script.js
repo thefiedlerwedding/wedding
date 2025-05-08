@@ -65,3 +65,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     document.getElementById("navLinks").classList.toggle("active");
   });
   
+
+  // Menü automatisch schließen beim Klick auf einen Link (nur mobil)
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("click", () => {
+    document.getElementById("navLinks").classList.remove("active");
+  });
+});
