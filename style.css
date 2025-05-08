@@ -59,7 +59,7 @@ html {
     position: absolute;
     top: 220px;
     width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--green);
     font-family: 'Brush Script MT', cursive;
     pointer-events: none;
