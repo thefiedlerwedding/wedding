@@ -73,7 +73,7 @@ html {
   .invitation-text{
     margin: 0.5rem 0;
     font-size: 2rem;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Brush Script MT', cursive, bold;
   }
   
   section {
